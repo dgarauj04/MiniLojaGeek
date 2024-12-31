@@ -16,5 +16,5 @@
 * CSS
 
 ## Screenshots
-![Screenshot da seção dos produtos do AluraGeek]<img src="../img/secao_produtos.png">
-![Screenshot da seção do formulário do AluraGeek]<img src="../img/secao_input.png">
+![Screenshot da seção dos produtos do AluraGeek](img/secao_produtos.png)
+![Screenshot da seção do formulário do AluraGeek](img/secao_input.png)
