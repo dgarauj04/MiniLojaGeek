@@ -1,0 +1,145 @@
+@media (max-width: 848px) and ( min-width: 488px) {
+ 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    font-size: 25px;
+}
+    
+main {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+}
+
+.section_produtos h2, .section_form h2 {
+    font-size: 2rem;
+}
+
+.card {
+font-size: 24px;
+}
+.card-valor {    
+font-size: 1.6rem;
+}
+
+form {
+    gap: 0;
+} 
+
+form input {    
+font-size: 1.4rem;
+}
+
+.button-form {
+    margin-top: 10px;
+    width: 100%;
+}   
+
+form button[type="submit"], form button[type="reset"] {
+    font-size: 1.6rem;
+    height: 50px;
+    width: 45%;
+}
+
+    footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 14vh;
+        font-size: 25px;
+        font-weight: 550;
+        gap: 10px;
+    }
+
+    footer a {
+font-size: 30px;
+    }
+
+    
+}
+
+@media (max-width: 487px) {
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    height: 9vh;
+}
+
+  main {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
+        gap: 0px;
+        height: 100vh;
+        margin-top: 10px;
+    }
+
+.section_produtos {
+    width: 100%;
+    height: 50vh;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
+}
+
+.card {
+    width: 40%;
+}
+
+.section_form {
+    width: 100%;
+    height: 50vh;  
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    width: 100%;
+}
+
+form input {
+    width: 90%;
+    padding: 12px;
+    margin: 8px;
+
+}
+
+.button-form {
+    margin-top: 10px;  
+}
+
+    footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 12vh;
+        font-weight: 550;
+        gap: 3px;
+    }
+    
+footer a {
+font-size: 20px;
+}
+
+    footer a:hover{
+    font-size: 23px;
+    }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+  
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/cards.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/response.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <header>
+        <h1>AluraGeek</h1>
+    </header>
+
+<div id="mensage-envio" style="display: none;">Produto cadastrado com sucesso!</div>
+
+    <main>
+        <section class="section_produtos">
+            <h2>MEUS PRODUTOS:</h2>
+            <ul class="produtos" data-produtos>                 
+                          
+            </ul>
+        </section>
+
+        <section class="section_form">
+            <h2>ADICIONAR PRODUTO:</h2>
+            <form id="add-product" data-form>
+                <input type="text" placeholder="Nome do produto..." required data-nome>
+                <input type="number" placeholder="Preço..." required data-preco>
+                <input type="text" placeholder="Caminho para imagem" required data-image>
+
+                <div class="button-form">
+                    <button type="submit">Adicionar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p1>AluraGeek | Desenvolvido por: Douglas Araujo |</p1>
+        <span>
+        <a href="https://www.github.com/dgarauj04/" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+        <a href="https://www.linkedin.com/in/douglas-araujo-dgprogdev/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+        <a href="https://www.instagram.com/dgaraujoo_/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></span>
+        <p2>| Alura Latam - 2024 |</p2>
+    </footer>
+
+    <script src="./js/mostrarProdutos.js" type="module"></script>
+    <script src="./js/criarProdutos.js" type="module"></script>
+</body>
+</html>

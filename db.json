@@ -1,0 +1,40 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Funko Pop Rocket 1202",
+      "preco": 97,
+      "imagem": "./img/funko_rocket_1202.webp"
+    },
+    {
+      "id": "2",
+      "nome": "Capacete Mandaloriano",
+      "preco": 960,
+      "imagem": "./img/capacete_mandalorian.webp"
+    },
+    {
+      "id": "3",
+      "nome": "Blusa Flamengo",
+      "preco": 250,
+      "imagem": "./img/blusa_flamengo.webp"
+    },
+    {
+      "id": "4",
+      "nome": "Funko POP Gatuno 1412",
+      "preco": 130,
+      "imagem": "./img/funko_gatuno_1412.webp"
+    },
+    {
+      "id": "5",
+      "nome": "Blusa Alemanha",
+      "preco": 100,
+      "imagem": "./img/blusa_germany.webp"
+    },
+    {
+      "id": "6",
+      "nome": "Quadro Star Wars",
+      "preco": "45",
+      "imagem": "https://casaeconstrucao.org/wp-content/uploads/2019/03/quadro-star-wars31.png"
+    }   
+  ]
+}
