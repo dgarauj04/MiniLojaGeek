@@ -4,7 +4,7 @@
 <hr>
 
 ## Link para acessar o site:
-<p>Link:</p>
+<a href="https://mini-loja-geek.vercel.app/">Clique aqui</a>
 
 ## Tecnologias utilizadas durante o projeto
 * Javascript
@@ -16,5 +16,5 @@
 * CSS
 
 ## Screenshots
-![Screenshot da seção dos produtos do AluraGeek](img/secao_produtos.png)
 ![Screenshot da seção do formulário do AluraGeek](img/secao_input.png)
+![Screenshot da seção dos produtos do AluraGeek](img/secao_produtos.png)
